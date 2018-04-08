@@ -1,4 +1,4 @@
-INSERT INTO exclusives(exclusive) VALUES ('N/a')
+INSERT INTO exclusives(exclusive) VALUES ('n/a')
 , ('Chase')
 , ('Funko Shop')
 , ('Hot Topic')
