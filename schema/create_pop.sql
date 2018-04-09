@@ -60,6 +60,8 @@ CREATE TABLE IF NOT EXISTS template.inventory (
 , grade NUMERIC (3, 1)
 , notes text
 , purchase_date date NOT NULL
+, vendor_id uuid NOT NULL CONSTRAINT "fk_template.inventory->vendors" REFERENCES template.vendors
+, seller text
 , receive_date date
 , item_price money NOT NULL
 , shipping_price money NOT NULL DEFAULT 0.0
