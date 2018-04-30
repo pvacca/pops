@@ -66,6 +66,6 @@ CREATE TABLE IF NOT EXISTS template.inventory (
 , item_price money NOT NULL
 , shipping_price money NOT NULL DEFAULT 0.0
 , tax money NOT NULL DEFAULT 0.0
-, total_price money NOT NULL CONSTRAINT "ck_price" CHECK (total_price = item_price + shipping_price + tax)
+, total_price money NOT NULL CONSTRAINT "ck_template.inventory_price" CHECK (total_price = item_price + shipping_price + tax)
 )
 ;
