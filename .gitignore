@@ -1,0 +1,11 @@
+node_modules/
+dist/
+
+# Typescript v1 declaration files
+typings/
+
+# optional npm cache dir
+.npm
+
+# generic
+.DS_Store
