@@ -1,0 +1,30 @@
+{
+  "name": "pops",
+  "version": "0.1.0",
+  "description": "pops order processing system",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvacca/pops.git"
+  },
+  "author": "Philip Vacca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvacca/pops/issues"
+  },
+  "homepage": "https://github.com/pvacca/pops#readme",
+  "devDependencies": {
+    "serverless-offline": "^3.23.0",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.0.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}

@@ -1,4 +1,5 @@
-INSERT INTO series(series) VALUES ('Heroes')
+INSERT INTO series(series) VALUES ('Custom')
+, ('Heroes')
 , ('Marvel')
 , ('Rocks')
 , ('Television')

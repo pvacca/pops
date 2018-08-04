@@ -23,4 +23,5 @@ INSERT INTO variations(variant) VALUES ('None')
 , ('Blue')
 , ('Purple')
 , ('Chrome Purple')
+, ('Chrome Red')
 ;
